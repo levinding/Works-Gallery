@@ -217,11 +217,11 @@ $(function(){
             if(text !==''){
                 if(active.length && active.hasClass('addkey')){
                     popover.removeClass('in');
+					var item = '<li class="keylist"><span>'+text+'</span><span class="am-icon-pencil-square-o hidden"></span><span class="am-icon-trash-o hidden"></span></li>';
+					custom.append(item)
                 }else{
-                    if(selectKey.length > 0) {
-                        selectKey.text(keywordList.children('li.hover').text());
-                    }
-                }
+					term.text(text);
+				}
                 input.val('');
                 //popover.removeClass('in');
             } 
@@ -378,7 +378,7 @@ $(function(){
             }
         	startDate = endDate = '';
             //qzl 关键词分页数据
-            SerachKeyWord();
+            //SerachKeyWord();
         });
         
         //AmazeUI Datepicker initialize
