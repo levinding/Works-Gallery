@@ -1,0 +1,80 @@
+@import "../../node_modules/amazeui/less/variables";
+@import "../../node_modules/amazeui/less/mixins";
+@import "../../node_modules/bootstrap/less/variables";
+@import "../../node_modules/bootstrap/less/mixins";
+@import "../../node_modules/amazeui/less/base";
+@import "../../node_modules/bootstrap/less/grid";
+@import "../../node_modules/bootstrap/less/utilities";
+@import "../../node_modules/bootstrap/less/responsive-utilities";
+@import "../../node_modules/bootstrap/less/tables";
+@import "../../node_modules/bootstrap/less/forms";
+@import "../../node_modules/bootstrap/less/pager";
+@import "../../node_modules/bootstrap/less/pagination";
+@import "../../node_modules/bootstrap/less/popovers";
+@import "../../node_modules/bootstrap/less/modals";
+@import "../../node_modules/bootstrap/less/tooltip";
+@import "../../node_modules/amazeui/less/icon";
+@import "../../node_modules/amazeui/less/ucheck";
+@import "../../node_modules/amazeui/less/datetimepicker";
+@import "../../node_modules/amazeui/less/offcanvas";
+
+//Button style
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-user-select: none;
+    background: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+.btn:hover {
+    filter:alpha(opacity=80);
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+    -webkit-transtion: all .2s ease;
+    -moz-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.btn-primary {
+    color: #FFF;
+    background-color: #106EBE;
+}
+.btn-lg {
+    padding: 6px 20px;
+}
+.btn-center {
+    display:block;
+    margin:0 auto;
+}
+.btn-grey {
+    background-color: #bdbdbd;
+    color: #fff;
+}
+button.close {
+    padding: 0px;
+    cursor: pointer;
+    background: none;
+    border: 0px none;
+}
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0px 1px 0px #FFF;
+    opacity: 0.2;
+    z-index: 9999;
+}
+.close:focus, .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.5;
+}

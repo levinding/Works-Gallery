@@ -1,0 +1,173 @@
+<!doctype html>
+<html class="no-js" lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<!-- Set render engine for 360 browser -->
+		<meta name="renderer" content="webkit">
+		<title>我的P4P - 微匹科技|emailgo.com</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="apple-touch-icon" href="img/icon.png">
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/main.css">
+		<script src="js/vendor/modernizr-2.8.3.min.js" defer async="true"></script>
+	</head>
+	<body class="noscroll">
+		<!--[if lt IE 8]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+		<a href="#main-content" id="skip-link" class="sr-only sr-only-focusable">Skip to content</a>
+		<section id="main-content" class="clearfix" role="main">
+			<header rol="heading" class="clearfix">
+				<h2 class="pull-left">
+				<span class="switch" title="点击展开联系人列表"></span>
+				<span class="title">我的P4P</span>
+				</h2>
+				<div class="pull-right">
+					<button type="button" class="btn"><span class="am-icon-search"></span></button>
+					<button type="button" class="btn"><span class="am-icon-th"></span></button>
+				</div>
+			</header>
+			<article role="article" class="scroll" data-scroll='{"cursorcolor":"#CCC", "cursorwidth":"8px", "cursorborderradius": "0"}'>
+				<div class="container-fluid myptop">
+					<div class="row">
+						<section class="col-md-8 scroll" data-scroll='{"railpadding": {"right": 10}, "cursorwidth":"6px"}'>						
+							<div class="row headinfo">
+								<div class="col-md-4 ">
+									今日已消耗：<span class="headnum">196.00</span> 元
+								</div>
+								<div class="col-md-8 ">
+									今日预算：<span class="headnum">300.00</span> 元
+								</div>
+							</div>
+							<div class="row chartinfo">
+								<div class="content col-md-6">
+									<div>曝光量<a href="" class="more">更多</a></div>
+									<div id="explodenum" class="chart"></div>				
+								</div>
+								<div class="content col-md-6">
+									<div>点击量<a href="" class="more">更多</a></div>
+									<div id="clicknum" class="chart"></div>				
+								</div>
+							</div>
+							<div class="row chartinfo">
+								<div class="content col-md-6" >
+									<div>花费<a href="" class="more">更多</a></div>
+									<div id="fee" class="chart"></div>					
+								</div>
+								<div class="content col-md-6">
+									<div>平均点击花费<a href="" class="more">更多</a></div>
+									<div id="avgfee" class="chart"></div>							
+								</div>
+							</div>
+							<div class="row chartinfo">
+								<div class="content col-md-6" >
+									<div>点击率<a href="" class="more">更多</a></div>
+									<div id="match" class="chart"></div>					
+								</div>
+								<div class="content col-md-6">
+									<div>推广时长<a href="" class="more">更多</a></div>
+									<div id="avgmatch" class="chart"></div>							
+								</div>
+							</div>
+						</section>
+						<section class="col-md-4 border-left ">
+							<div class="keywordlist">
+								<div class="thead scroll-head">
+									<table class="table">
+										<thead class="thead">
+											<tr>
+												<th><span>关键词&#x3000;</span></th>
+												<th><span>点击量 <i class="am-icon-long-arrow-up"></i></span></th>
+												<th><span>花费 <i class="am-icon-long-arrow-down"></i></span></th>
+												<th><span>平均点击花费<i class="am-icon-long-arrow-up"></i></span></th>
+											</tr>
+										</thead>
+									</table>
+								</div>
+								<div class="tbody scroll" data-scroll='{"railpadding": {"right": 10}, "cursorwidth":"6px"}'>
+									<table class="table table-hover">
+										<tbody class="tbody">
+											<tr>
+												<td><span>usb drive</span></td>
+												<td><span>1</span></td>
+												<td><span>6.0</span></td>
+												<td><span>1</span></td>
+											</tr>
+											<tr>
+												<td><span>usb drive</span></td>
+												<td><span>1</span></td>
+												<td><span>6.0</span></td>
+												<td><span>1</span></td>
+											</tr>
+											<tr>
+												<td><span>first usb drive</span></td>
+												<td><span>1</span></td>
+												<td><span>6.5</span></td>
+												<td><span>2</span></td>
+											</tr>
+											<tr>
+												<td><span>usb drive</span></td>
+												<td><span>1</span></td>
+												<td><span>8.0</span></td>
+												<td><span>1</span></td>
+											</tr>
+											<tr>
+												<td><span>usb drive</span></td>
+												<td><span>1</span></td>
+												<td><span>4.0</span></td>
+												<td><span>1</span></td>
+											</tr>
+											<tr>
+												<td><span>last usb drive</span></td>
+												<td><span>1</span></td>
+												<td><span>3.8</span></td>
+												<td><span>2</span></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</article>
+			<aside rol="complementary">
+				<button class="btn add-btn" type="button" title="新增关键词"></button>
+				<div class="wrapper scroll">
+					<div class="section">
+	    				<div class="addkey"><a href="">新增关键词组</a></div>
+	    				<div class="selected hidden"></div>
+                        <div class="clear hidden">清空上述选择条件</div>
+	    				<ul class="list">
+                            <li class="effect"><span>推广效果</span></li>
+                            <li><a href="">关键词分析</a></li>
+							<li><a href="">智能出价</a></li>
+	    				</ul>
+	    			</div>
+				</div>
+                <div class="list-children">
+                    <ul class="popover fade effect no-checkbox">
+                        <li><a href="">总览</a></li>
+                        <li><a href="">曝光量</a></li>
+                        <li><a href="">点击量</a></li>
+                        <li><a href="">点击率</a></li>
+                        <li><a href="">花费</a></li>
+                        <li><a href="">平均点击花费</a></li>
+                        <li><a href="">推广时长</a></li>
+                    </ul>
+                </div>
+				<footer>
+					<div class="back">
+    					<span>返回上一页</span>
+    					<span class="am-icon-sign-out" title="退出"></span>
+    				</div>
+				</footer>
+			</aside>
+		</section>
+		<script src="js/vendor/jquery.min.js"></script>
+		<script src="js/vendor/jquery.nicescroll.min.js"></script>
+		<script src="js/plugins/plugin.min.js"></script> 
+		<script src="js/main.js"></script>
+	</body>
+</html>
